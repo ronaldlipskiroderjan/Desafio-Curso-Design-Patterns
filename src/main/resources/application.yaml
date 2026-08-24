@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: DesingPatternsProject
+
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/desingpatterns
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
